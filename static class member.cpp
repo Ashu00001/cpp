@@ -24,6 +24,12 @@ class item{
 		}
 };
 int item::count;// definition of static data member
+/*
+the type and scope of each static member variable must be defined outside the class definition. this is necessary because the static members
+are stored separately rather than as a part of an object. sincr they are associated with the class itself rather tahn with any class object,
+they are also known as class variables.
+Static variables are like non-inline member functiona as they are declared in a class declararytion and defined in the  source  file.
+*/
 int main()
 {
 	item a,b,c;//count is initialized to zero
