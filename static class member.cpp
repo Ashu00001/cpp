@@ -23,7 +23,7 @@ class item{
 			cout<<count<<"\n";
 		}
 };
-int item::count;// to make  it visible to outside class
+int item::count;// definition of static data member
 int main()
 {
 	item a,b,c;//count is initialized to zero
